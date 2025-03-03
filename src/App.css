@@ -1,0 +1,20 @@
+/* Ensure the entire page fills the screen */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure the main container takes up available space */
+#root, .app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Push the footer to the bottom */
+.content {
+  flex: 1;
+}

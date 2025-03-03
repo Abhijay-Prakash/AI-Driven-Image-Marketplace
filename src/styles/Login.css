@@ -1,0 +1,50 @@
+/* Ensure full height for proper alignment */
+.login-container {
+    background: #f8f9fa;
+    height: 100vh;
+  }
+  
+  /* Styling the login box */
+  .login-box {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 0;
+  }
+  
+  /* Left Side Image */
+  .image-container {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  /* Right Side Form */
+  .form-container {
+    padding: 40px;
+  }
+  
+  .login-form {
+    width: 100%;
+  }
+  
+  .forgot-password {
+    font-size: 14px;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
