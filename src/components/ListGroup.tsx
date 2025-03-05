@@ -1,5 +1,5 @@
 function ListGroup() {
-  let items = ["New York", "San Francisco", "Chicago", "Manhattan"];
+  let items = ["San Francisco", "Chicago", "Manhattan"]
   
   if (items.length == 0) {
     return(
