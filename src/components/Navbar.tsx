@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
       <div className="container">
         {/* Logo */}
         <Link className="navbar-brand" to="/">
-          📷 ImageHub
+          DREAMPIX
         </Link>
 
         {/* Mobile Toggle Button */}
