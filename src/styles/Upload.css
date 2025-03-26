@@ -1,0 +1,78 @@
+/* 🌟 Upload Page - Clean, Modern, and Vibrant */
+.upload-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364); /* Deep Blue Gradient */
+    padding: 20px;
+  }
+  
+  .upload-card {
+    background: rgba(255, 255, 255, 0.95); /* Slight transparency */
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 700px;
+    width: 90%;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .upload-card:hover {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+  }
+  
+  .upload-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .upload-form .form-label {
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .upload-form .form-control {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .upload-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Soft Orange Gradient */
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .upload-btn:hover {
+    background: linear-gradient(135deg, #ff6a4d, #ffb067);
+  }
+  
+  .image-preview-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-preview {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .alert {
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
